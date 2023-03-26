@@ -1,0 +1,151 @@
+body{
+    overflow-x: hidden;
+}
+#logo{
+    width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+    font-weight: 800;
+}
+#logostories{
+    Margin: 0;
+    font-weight: 500;
+    font: Raleway;
+}
+.navbar{
+    padding: 16px 78px;
+    background-color: #fff;
+    font-family: Raleway,sans-serif;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logos{
+    float: left;
+}
+.dropdown{
+    float: unset;
+    overflow: hidden;
+    padding: auto;
+    margin: auto;
+    padding-left: 60px;
+}
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdownicon{
+    padding-top: 0px;
+    padding-left: 8px;
+}
+main{
+    font-family: Raleway,sans-serif;
+    margin-top: 110px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 160px;
+    width: auto;
+}
+#heading{
+    color: #000;
+    font-weight: 600;
+    margin: 0px;
+    font-family: Raleway,sans-serif;
+}
+#filtertext{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.myDIV{
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.btn{
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    background-color: white;
+    float: left;
+    cursor: pointer;
+}
+.active, .btn:hover{
+    background-color: #0084ff;
+    color:#fff;
+}
+#filter{
+    color: rgb(9, 181, 249);
+}
+.mainbox{
+    width: 100%;
+    height:176px;
+}
+.innerbox{
+    Width: 28.3%; 
+    display: inline-block;
+    border: 2px solid rgb(105, 205, 244);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius:6px ;
+    box-shadow: 1px 2px 5px 1px #80808082;
+}
+.imgstyle{
+    Width: 100%;
+    Height: 100%;
+
+}
+.p2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0,0,0,.6);
+    margin: 4px 0px;
+    padding: 10px 24px;
+}
+.author{
+    color: #0096ff;
+    font-size: 14px;
+    font-style: Italic;
+    font-weight: 500;
+}
+.headingdiv p{
+    padding-top: 4px;
+    padding-left: 24px;
+}
+.headingdiv h2{
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    font-weight: 600;
+    padding: 10px 24px;
+}
+.date{
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+footer{
+    background-color: #172146;
+    Padding: 30px 16%;
+    margin-top: 820px;
+}
+footer p{
+    font-size : 24px;
+    color : #fff;
+    text-align : center;
+    padding : 6px;
+}
